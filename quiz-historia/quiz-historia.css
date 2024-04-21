@@ -312,8 +312,8 @@ body {
     font-weight: 600;
     color: rgba(255, 255, 255, .3);
     cursor: pointer;
-    pointer-events: none;
-    transition: .3s;
+   /* pointer-events: none;*/
+    transition: .5s;
 }
 
 .quiz-footer .next-btn:hover {
