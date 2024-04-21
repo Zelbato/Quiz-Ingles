@@ -47,5 +47,6 @@ body {
 .main {
     min-height: 100vh;
     background: url(/Imagens/laranja-azul.jpg) no-repeat;
-    background-position: ;
+    background-position:center ;
+    background-size: cover;
 }
