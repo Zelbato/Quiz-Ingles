@@ -23,16 +23,17 @@ continueBtn.onclick = () => {//desativa a classe acima do botao
     quizBox.classList.add('active');
 
     showQuestions(0);
+
 }
 
-let questionCount = 0;
+let quesCount = 0;
 
 const nextBtn = document.querySelector('.next-btn');
 
 nextBtn.onclick = () => {//Proxima questão
-    questionCount++;
-    showQuestions(questionCount);
 
+    quesCount++;
+    showQuestions(quesCount);
 
     showQuestions(0);
 }
@@ -41,5 +42,5 @@ nextBtn.onclick = () => {//Proxima questão
 
 function showQuestions(index) {
     const questionText = document.querySelector('.question-text');
-    questionText.textContent =  `${questions[index].numb}. ${questions[index].question}`;
+    questionText.textContent = `${questions[index].numb}. ${questions[index].question}`;
 }

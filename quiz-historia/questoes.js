@@ -11,8 +11,6 @@ let questions = [
         ]
     },
 
-
-
     {
         numb: 2,
         question:"Em que ano ocorreu a Peste Negra?",
