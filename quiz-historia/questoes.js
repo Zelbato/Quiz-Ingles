@@ -47,17 +47,6 @@ let questions = [
             "C. 20 de maio de 1500",
             "D. 07 de novembro de 1570"
         ]
-    },
-
-    {
-        numb: 5,
-        question:"Quais foram os anos das Grandes Navegações?",
-        answer:"B. Iniciou no século XV e estendeu-se até o século XVI.",
-        options: [
-            "A. Começou no século XVI e estendeu-se até o século XVIII",
-            "B. Iniciou no século XV e estendeu-se até o século XVI.",
-            "C. Iniciou no século XV e estendeu-se até o século XVII.",
-            "D. Iniciou no século X e estendeu-se até o século XVI."
-        ]
     }
+
 ]
