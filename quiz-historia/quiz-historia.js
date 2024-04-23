@@ -111,13 +111,13 @@ function optionSelected(answer) {
 
 function questCounter(index) {
     const questTotal = document.querySelector('.question-total');
-    questTotal.textContent = `${index} of ${questions.length} Questions`;
+    questTotal.textContent = `${index} de ${questions.length} Questôes`;
 }
 
 function headerScore() {
 
     const headerScore = document.querySelector('.header-score');
-    headerScore.textContent = `Score: ${userScore} / ${questions.length}`;
+    headerScore.textContent = `Pontos: ${userScore} / ${questions.length}`;
 }
 
 function showResultBox() {
@@ -138,7 +138,7 @@ function showResultBox() {
         progressStartValue++;
 
         progressValue.textContent = `${progressStartValue}%`;
-        circuloProgress.style.background = `conic-gradient(#8d00c4 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg);`;
+        // circuloProgress.style.background = `conic-gradient(#8d00c4 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg);`;
 
         if(progressStartValue == progressEndValue) {
             clearInterval(progress);
