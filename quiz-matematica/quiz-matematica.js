@@ -111,13 +111,13 @@ function optionSelected(answer) {
 
 function questCounter(index) {
     const questTotal = document.querySelector('.question-total');
-    questTotal.textContent = `${index} of ${questions.length} Questions`;
+    questTotal.textContent = `${index} de ${questions.length} Questôes`;
 }
 
 function headerScore() {
 
     const headerScore = document.querySelector('.header-score');
-    headerScore.textContent = `Score: ${userScore} / ${questions.length}`;
+    headerScore.textContent = `Pontos: ${userScore} / ${questions.length}`;
 }
 
 function showResultBox() {
@@ -130,7 +130,7 @@ function showResultBox() {
     const circuloProgress = document.querySelector('.circulo-progress');
     const progressValue = document.querySelector('.progress-value');
 
-    let progressStartValue = 0;
+    let progressStartValue = -1;
     let progressEndValue = (userScore / questions.length) * 100;
     let speed = 20;
 

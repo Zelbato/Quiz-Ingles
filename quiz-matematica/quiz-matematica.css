@@ -44,7 +44,7 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color:#8d00c4;
+    color: #ff7a06;
 }
 
 .main {
@@ -97,10 +97,10 @@ body {
     width: 190px;
     height: 55px;
     border:2px solid #f3f6f9;
-    background: #8d00c4;
+    background:  #ff7a06;
     border-radius: 6px;
     outline: none;
-    box-shadow: 0 0 20px #cd4ffe;
+    box-shadow: 0 0 20px #ff9028;
     font-size: 18px;
     color: #f3f6f9;
     letter-spacing: 1px;
@@ -138,7 +138,7 @@ body {
 
 .popup-info h2 {
     font-size: 50px;
-    color: #8d00c4;
+    color:  #ff7a06;
 }
 
 .popup-info .info {
@@ -165,8 +165,8 @@ body {
 
     width: 135px;
     height: 45px;
-    background: #8d00c4;
-    border: 2px solid #8d00c4;
+    background:  #ff7a06;
+    border: 2px solid #ff7a06;
     outline: none;
     border-radius: 6px;
     font-size: 16px;
@@ -174,7 +174,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-shadow:0 0 10px #cd4ffe;
+    text-shadow:0 0 10px #ff9028;
     cursor: pointer;
 
     transition: .5s;
@@ -183,17 +183,17 @@ body {
 
 .popup-info  .btn-group .info-btn:nth-child(1) {
     background: transparent;
-    color: #8d00c4;
+    color:  #ff7a06;
 }
 
 .popup-info  .btn-group .info-btn:nth-child(1):hover {
-    background: #8d00c4;
+    background:  #ff7a06;
     color: #f3f6f9;
 }
 
 .popup-info  .btn-group .info-btn:nth-child(2):hover {
-    background: #5b007f;
-    border-color: #5b007f;
+    background: #a16306;
+    border-color: #a16306;
 } 
 
 .quiz-section {
@@ -218,7 +218,7 @@ body {
     position: relative;
     width: 500px;
     background: transparent;
-    border: 2px solid #8d00c4;
+    border: 2px solid  #ff7a06;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
@@ -243,7 +243,7 @@ body {
 .quiz-box h1 {
     text-align: center;
     font-size: 32px;
-    background: linear-gradient(45deg, transparent, #8d00c4, transparent);
+    background: linear-gradient(45deg, transparent,  #ff7a06, transparent);
     border-radius: 6px;
 }
 
@@ -252,7 +252,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    border-bottom: 2px solid #8d00c4;
+    border-bottom: 2px solid  #ff7a06;
     margin-bottom: 30px;
 }
 
@@ -262,7 +262,7 @@ body {
 }
 
 .quiz-header .header-score {
-    background: #8d00c4;
+    background:  #ff7a06;
     border-radius: 6px;
     padding: 7px;
 }
@@ -311,7 +311,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 2px solid #8d00c4;
+    border-top: 2px solid  #ff7a06;
     padding: 20px  ;
     margin-top: 30px;
 }
@@ -337,15 +337,15 @@ body {
 }
 
 .quiz-footer .next-btn.active:hover {
-    background: #5b007f;
-    border: 2px solid #5b007f;
+    background: #a16306;
+    border: 2px solid #a16306;
 }
 
 .quiz-footer .next-btn.active {
     pointer-events: auto;
     color: #fff;
-    background: #8d00c4;
-    border: 2px solid #8d00c4;
+    background:  #ff7a06;
+    border: 2px solid  #ff7a06;
 }
 
 .quiz-section .result-box {
@@ -356,7 +356,7 @@ body {
 
     width: 500px;
     background: transparent;
-    border: 2px solid #8d00c4;
+    border: 2px solid  #ff7a06;
     border-radius: 6px;
 
     padding: 20px;
@@ -394,7 +394,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: conic-gradient( #8d00c4 3.6deg, rgba(255,255,255,.1) 0deg);
+    background: conic-gradient(  #ff7a06 3.6deg, rgba(255,255,255,.1) 0deg);
 
     display: flex;
     align-items: center;
@@ -433,9 +433,9 @@ body {
     font-size: 16px;
     font-weight: 600;
 
-    background: #8d00c4;
+    background:  #ff7a06;
     color: #fff;
-    border: 2px solid #8d00c4;
+    border: 2px solid #ff7a06;
     outline: none;
     border-radius: 5px;
     cursor: pointer;
@@ -444,21 +444,21 @@ body {
 }
 
 .buttons button:nth-child(1):hover {
-    background: #5b007f;
+    background: #a16306;
     color: #f3f6f9;
     text-shadow:0 0 10px #eaeaea;
-    border-color: #5b007f;
+    border-color: #a16306;
 }
 
 .buttons button:nth-child(2) {
     background: transparent;
-    color: #8d00c4;
-    text-shadow:0 0 10px #cd4ffe;
+    color:   #ff7a06;
+    text-shadow:0 0 10px #ff9028;
 
 }
 
 .buttons button:nth-child(2):hover {
-    background: #8d00c4;
+    background: #ff7a06;
     color: #fff;
-    text-shadow:0 0 10px #cd4ffe;
+    text-shadow:0 0 10px #ff9028;
 }

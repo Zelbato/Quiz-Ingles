@@ -34,9 +34,20 @@ let questions = [
             "D. 7 de setembro de 1822"
         ]
     },
-
     {
         numb: 4,
+        question:"Em que ano ocorreu a independência do Brasil?",
+        answer:"D. 7 de setembro de 1822",
+        options: [
+            "A. 29 de agosto de 1821",
+            "B. 15 de novembro de 1889",
+            "C. 9 de julho de 1824",
+            "D. 7 de setembro de 1822"
+        ]
+    },
+
+    {
+        numb: 5,
         question:"Quando ocorreu o descobrimento do Brasil?",
         answer:"A. 22 de abril de 1500",
         options: [
