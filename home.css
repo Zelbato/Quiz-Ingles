@@ -5,7 +5,7 @@
 }
 
 body {
-    background: rgb(55, 55, 81);
+    background: rgb(21, 21, 21);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -41,7 +41,8 @@ main .card-img {
     width: 320px;
     height: 250px;
     border-radius: 1.5rem;
-    box-shadow: 0px 0px 24px rgba(148, 148, 249, 0.693);
+    box-shadow: 0px 0px 20px rgb(193, 193, 255);
+    border: 2px solid  rgb(255, 255, 255);
 }
 
 main .card-data {
@@ -78,16 +79,51 @@ main .card-title {
 main .card-button {
     text-decoration: none;
     font-weight: 500;
-    color: #f3f6f9;
-    background: rgb(55, 55, 81);
-    padding: .75rem 1.5rem;
+            padding: .75rem 1.5rem;
     border-radius: .5rem;
+    transition: .5s;
 }
 
-main .card-button:hover {
-    background: rgb(88, 88, 131);
+main .card-button.red {
+    background: #f3f6f9a5;
+    color: #c40000;
+    border: 2px solid #c40000;
+    box-shadow: 0 0 10px #c40000;
+}
+
+main .card-button.purple {
+    background: #f3f6f9a5;
+    color: #8d00c4;
+    border: 2px solid #8d00c4;
+    box-shadow: 0 0 10px #8d00c4;
+}
+
+main .card-button.orange {
+    background: #f3f6f9a5;
+    color: #ff7a06;
+    border: 2px solid #ff9028;
+    box-shadow: 0 0 10px #ff9028;
+}
+
+main .card-button.red:hover {
+    background: #c40000;
     color: #f3f6f9;
-    transition: .5s;
+    text-shadow:0px 0px 10px #ff2828;
+    box-shadow: 0px 0px 10px #ff2828;
+}
+
+main .card-button.purple:hover {
+    background: #8d00c4;
+    color: #f3f6f9;
+    text-shadow:0px 0px 10px #c228ff;
+    box-shadow: 0px 0px 10px #c228ff;
+}
+
+main .card-button.orange:hover {
+    background: #ff7a06;
+    color: #f3f6f9;
+    text-shadow:0px 0px 10px #ff9028;
+    box-shadow: 0px 0px 10px #ff9028;
 }
 
 main .card-article:hover .card-data {
