@@ -17,10 +17,11 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
-    background: transparent;
+    padding: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
     z-index: 100;
     box-shadow: 0 0 10px 0px #f3f6f9;
 }
@@ -30,10 +31,11 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
+    text-align: center;
     filter: drop-shadow(0 0 5px #09001d);
 }
 
-.navbar a {
+/* .navbar a {
     color: rgb(255, 255, 255);
     text-decoration: none;  
     font-size: 18px;
@@ -44,8 +46,8 @@ body {
 
 .navbar a:hover,
 .navbar a.active {
-    color:#996935;
-}
+    color:#355899;
+} */
 
 .main {
     min-height: 100vh;
@@ -97,10 +99,10 @@ body {
     width: 190px;
     height: 55px;
     border:2px solid #f3f6f9;
-    background: #996935;
+    background: #355899;
     border-radius: 6px;
     outline: none;
-    box-shadow: 0 0 20px #c49b71;
+    box-shadow: 0 0 20px #717cc4;
     font-size: 18px;
     color: #f3f6f9;
     letter-spacing: 1px;
@@ -138,7 +140,7 @@ body {
 
 .popup-info h2 {
     font-size: 50px;
-    color: #996935;
+    color: #355899;
 }
 
 .popup-info .info {
@@ -165,8 +167,8 @@ body {
 
     width: 135px;
     height: 45px;
-    background: #996935;
-    border: 2px solid #996935;
+    background: #355899;
+    border: 2px solid #355899;
     outline: none;
     border-radius: 6px;
     font-size: 16px;
@@ -174,7 +176,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-shadow:0 0 10px #c49b71;
+    text-shadow:0 0 10px #717cc4;
     cursor: pointer;
 
     transition: .5s;
@@ -183,17 +185,17 @@ body {
 
 .popup-info  .btn-group .info-btn:nth-child(1) {
     background: transparent;
-    color: #996935;
+    color: #355899;
 }
 
 .popup-info  .btn-group .info-btn:nth-child(1):hover {
-    background: #996935;
+    background: #355899;
     color: #f3f6f9;
 }
 
 .popup-info  .btn-group .info-btn:nth-child(2):hover {
-    background: #795e39;
-    border-color: #795e39;
+    background: #113d7b;
+    border-color: #113d7b;
 } 
 
 .quiz-section {
@@ -218,7 +220,7 @@ body {
     position: relative;
     width: 500px;
     background: transparent;
-    border: 2px solid #996935;
+    border: 2px solid #355899;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
@@ -243,7 +245,7 @@ body {
 .quiz-box h1 {
     text-align: center;
     font-size: 32px;
-    background: linear-gradient(45deg, transparent, #996935, transparent);
+    background: linear-gradient(45deg, transparent, #355899, transparent);
     border-radius: 6px;
 }
 
@@ -252,7 +254,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    border-bottom: 2px solid #996935;
+    border-bottom: 2px solid #355899;
     margin-bottom: 30px;
 }
 
@@ -262,7 +264,7 @@ body {
 }
 
 .quiz-header .header-score {
-    background: #996935;
+    background: #355899;
     border-radius: 6px;
     padding: 7px;
 }
@@ -311,7 +313,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 2px solid #996935;
+    border-top: 2px solid #355899;
     padding: 20px  ;
     margin-top: 30px;
 }
@@ -337,15 +339,15 @@ body {
 }
 
 .quiz-footer .next-btn.active:hover {
-    background: #795e39;
-    border: 2px solid #795e39;
+    background: #113d7b;
+    border: 2px solid #113d7b;
 }
 
 .quiz-footer .next-btn.active {
     pointer-events: auto;
     color: #fff;
-    background: #996935;
-    border: 2px solid #996935;
+    background: #355899;
+    border: 2px solid #355899;
 }
 
 .quiz-section .result-box {
@@ -356,7 +358,7 @@ body {
 
     width: 500px;
     background: transparent;
-    border: 2px solid #996935;
+    border: 2px solid #355899;
     border-radius: 6px;
 
     padding: 20px;
@@ -394,7 +396,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background: conic-gradient( #996935 .1deg, rgba(255,255,255,.1) 0deg);
+    background: conic-gradient( #355899 .1deg, rgba(255,255,255,.1) 0deg);
 
     display: flex;
     align-items: center;
@@ -433,9 +435,9 @@ body {
     font-size: 16px;
     font-weight: 600;
 
-    background: #996935;
+    background: #355899;
     color: #fff;
-    border: 2px solid #996935;
+    border: 2px solid #355899;
     outline: none;
     border-radius: 5px;
     cursor: pointer;
@@ -444,21 +446,21 @@ body {
 }
 
 .buttons button:nth-child(1):hover {
-    background: #795e39;
+    background: #113d7b;
     color: #f3f6f9;
     text-shadow:0 0 10px #eaeaea;
-    border-color: #795e39;
+    border-color: #113d7b;
 }
 
 .buttons button:nth-child(2) {
     background: transparent;
-    color: #996935;
-    text-shadow:0 0 10px #c49b71;
+    color: #355899;
+    text-shadow:0 0 10px #717cc4;
 
 }
 
 .buttons button:nth-child(2):hover {
-    background: #996935;
+    background: #355899;
     color: #fff;
-    text-shadow:0 0 10px #c49b71;
+    text-shadow:0 0 10px #717cc4;
 }

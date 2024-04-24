@@ -166,7 +166,7 @@ function showResultBox() {
         progressStartValue++;
 
         progressValue.textContent = `${progressStartValue}%`;
-        circuloProgress.style.background = `conic-gradient(#996935 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`;
+        circuloProgress.style.background = `conic-gradient(#355899 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`;
 
         if(progressStartValue == progressEndValue) {
             clearInterval(progress);

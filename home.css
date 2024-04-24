@@ -86,16 +86,16 @@ main .card-button {
 
 main .card-button.red {
     background: #f3f6f9a5;
-    color: #c40000;
-    border: 2px solid #c40000;
-    box-shadow: 0 0 10px #c40000;
+    color: #355899;
+    border: 2px solid #355899;
+    box-shadow: 0 0 10px #355899;
 }
 
 main .card-button.purple {
     background: #f3f6f9a5;
-    color: #8d00c4;
-    border: 2px solid #8d00c4;
-    box-shadow: 0 0 10px #8d00c4;
+    color: #996935;
+    border: 2px solid #996935;
+    box-shadow: 0 0 10px #996935;
 }
 
 main .card-button.orange {
@@ -106,17 +106,17 @@ main .card-button.orange {
 }
 
 main .card-button.red:hover {
-    background: #c40000;
+    background: #355899;
     color: #f3f6f9;
-    text-shadow:0px 0px 10px #ff2828;
-    box-shadow: 0px 0px 10px #ff2828;
+    text-shadow:0px 0px 10px #717cc4;
+    box-shadow: 0px 0px 10px #717cc4;
 }
 
 main .card-button.purple:hover {
-    background: #8d00c4;
+    background: #996935;
     color: #f3f6f9;
-    text-shadow:0px 0px 10px #c228ff;
-    box-shadow: 0px 0px 10px #c228ff;
+    text-shadow:0px 0px 10px #baa37c;
+    box-shadow: 0px 0px 10px #baa37c;
 }
 
 main .card-button.orange:hover {

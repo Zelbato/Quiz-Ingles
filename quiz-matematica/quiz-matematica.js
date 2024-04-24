@@ -6,6 +6,8 @@ const continueBtn = document.querySelector('.continue-btn');
 const quizSelection = document.querySelector('.quiz-section');
 const quizBox = document.querySelector('.quiz-box');
 const resultBox = document.querySelector('.result-box');
+const refazerBtn = document.querySelector('.refazer-btn');
+const goHomeBtn = document.querySelector('.goHome-btn');
 
 starBtn.onclick = () => {//ativa o botão para ser usado com outras classes
     popupInfo.classList.add('active');
@@ -27,6 +29,32 @@ continueBtn.onclick = () => {//desativa a classe acima do botao
     questCounter(1);
     userScore();
 
+}
+
+refazerBtn.onclick = () => {//desativa a classe acima do botao 
+    quizBox.classList.add('active');
+    nextBtn.classList.remove('active');
+    resultBox.classList.remove('active');
+
+    quesCount = 0;
+    quesNumb = 1;
+    userScore = 0;
+    showQuestions(quesCount);
+    questCounter(quesNumb);
+
+    headerScore();
+}
+
+goHomeBtn.onclick = () => {//desativa a classe acima do botao 
+    quizSelection.classList.remove('active');
+    nextBtn.classList.remove('active');
+    resultBox.classList.remove('active');
+
+    quesCount = 0;
+    quesNumb = 1;
+    userScore = 0;
+    showQuestions(quesCount);
+    questCounter(quesNumb);
 }
 
 let quesCount = 0;
@@ -138,7 +166,7 @@ function showResultBox() {
         progressStartValue++;
 
         progressValue.textContent = `${progressStartValue}%`;
-        circuloProgress.style.background = `conic-gradient(#8d00c4 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg);`;
+        circuloProgress.style.background = `conic-gradient(#ff7a06 ${progressStartValue * 3.6}deg, rgba(255, 255, 255, .1) 0deg)`;
 
         if(progressStartValue == progressEndValue) {
             clearInterval(progress);

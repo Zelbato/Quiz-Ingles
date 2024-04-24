@@ -17,10 +17,10 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 25px;
     background: transparent;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     z-index: 100;
     box-shadow: 0 0 10px 0px #f3f6f9;
 }
@@ -33,7 +33,7 @@ body {
     filter: drop-shadow(0 0 5px #09001d);
 }
 
-.navbar a {
+/* .navbar a {
     color: rgb(255, 255, 255);
     text-decoration: none;  
     font-size: 18px;
@@ -45,7 +45,7 @@ body {
 .navbar a:hover,
 .navbar a.active {
     color: #ff7a06;
-}
+} */
 
 .main {
     min-height: 100vh;
