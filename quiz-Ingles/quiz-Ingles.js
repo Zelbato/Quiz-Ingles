@@ -7,7 +7,6 @@ const quizSelection = document.querySelector('.quiz-section');
 const quizBox = document.querySelector('.quiz-box');
 const resultBox = document.querySelector('.result-box');
 const refazerBtn = document.querySelector('.refazer-btn');
-const goHomeBtn = document.querySelector('.goHome-btn');
 
 starBtn.onclick = () => {//ativa o botão para ser usado com outras classes
     popupInfo.classList.add('active');
@@ -43,18 +42,6 @@ refazerBtn.onclick = () => {//desativa a classe acima do botao
     questCounter(quesNumb);
 
     headerScore();
-}
-
-goHomeBtn.onclick = () => {//desativa a classe acima do botao 
-    quizSelection.classList.remove('active');
-    nextBtn.classList.remove('active');
-    resultBox.classList.remove('active');
-
-    quesCount = 0;
-    quesNumb = 1;
-    userScore = 0;
-    showQuestions(quesCount);
-    questCounter(quesNumb);
 }
 
 let quesCount = 0;

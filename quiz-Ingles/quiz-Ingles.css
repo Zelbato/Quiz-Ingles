@@ -444,6 +444,25 @@ body {
     margin: 0 20px 20px;
     transition: .5s;
 }
+.buttons a {
+    width: 155px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    background: #355899;
+    color: #fff;
+    border: 2px solid #355899;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 20px 20px;
+    transition: .5s;
+}
 
 .buttons button:nth-child(1):hover {
     background: #113d7b;
@@ -452,14 +471,14 @@ body {
     border-color: #113d7b;
 }
 
-.buttons button:nth-child(2) {
+.buttons a:nth-child(2) {
     background: transparent;
     color: #355899;
     text-shadow:0 0 10px #717cc4;
 
 }
 
-.buttons button:nth-child(2):hover {
+.buttons a:nth-child(2):hover {
     background: #355899;
     color: #fff;
     text-shadow:0 0 10px #717cc4;

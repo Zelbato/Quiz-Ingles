@@ -442,6 +442,24 @@ body {
     margin: 0 20px 20px;
     transition: .5s;
 }
+.buttons a {
+    width: 155px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    text-decoration: none;
+    background: #996935;
+    color: #fff;
+    border: 2px solid #996935;
+    outline: none;
+    border-radius: 5px;
+    transition: .5s;
+}
 
 .buttons button:nth-child(1):hover {
     background: #795e39;
@@ -450,14 +468,14 @@ body {
     border-color: #795e39;
 }
 
-.buttons button:nth-child(2) {
+.buttons a:nth-child(2) {
     background: transparent;
     color: #996935;
     text-shadow:0 0 10px #c49b71;
 
 }
 
-.buttons button:nth-child(2):hover {
+.buttons a:nth-child(2):hover {
     background: #996935;
     color: #fff;
     text-shadow:0 0 10px #c49b71;
