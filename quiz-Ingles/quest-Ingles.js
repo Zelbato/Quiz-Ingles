@@ -48,13 +48,13 @@ let questions = [
 
     {
         numb: 5,
-        question:"Quem foi o primeiro presidente do Brasil?",
-        answer:"B. Deodoro da Fonsenca",
+        question:"Dengue is treated with pain medicine as there is no specific treatment currently?",
+        answer:"A. Is treated with pain medication",
         options: [
-            "A. Fernando Collor ",
-            "B. Deodoro da Fonsenca",
-            "C. Luis Inácio Lula da Silva ",
-            "D. Fernando Henrique Cardoso"
+            "A. Is treated with pain medication",
+            "B. Can be cured with alternative therapies ",
+            "C. has specific and efficient treatment ",
+            "D. Is treated with intense antibiotics."
         ]
     
     }

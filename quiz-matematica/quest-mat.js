@@ -49,11 +49,11 @@ let questions = [
     {
         numb: 5,
         question:"Uma empresa com 40 funcionários, 27 deles plano de saúde. Qual é a fração que representa a quantidade de funcionários que tem plano de saúde?",
-        answer:"B. 40/27",
+        answer:"B. 27/40",
         options: [
             "A. 40/13",
-            "B. 40/27",
-            "C. 27/40",
+            "B. 27/40",
+            "C. 40/27",
             "D. 13/40"
         ]
     }
