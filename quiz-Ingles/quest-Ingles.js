@@ -1,60 +1,60 @@
 let questions = [
     {
         numb: 1,
-        question:"Em que ano ocorreu a Revolução Industrial?",
-        answer:"C. 1760",
+        question:"Quais dessas palavras nos usamos em um aeroporto? ",
+        answer:"C. Airplane, Airport, baggage, fligth ticket and board",
         options: [
-            "A. 1740",
-            "B. 1860",
-            "C. 1760",
-            "D. 1670"
+            "A.  Visa, airport, board, Gate, hand ladder",
+            "B. Gate, airport, airplane, foot and retired",
+            "C. Airplane, Airport, baggage, fligth ticket and board",
+            "D. Check-in, Gate, Visa, hand ladder and pocket watch"
         ]
     },
 
     {
         numb: 2,
-        question:"Na guerra dos 100 anos,quem foi a figura mais conhecida e quanto tempo durou?",
-        answer:"B. 116 anos, Joana d'Arc",
+        question:"Hello Paulo, what would you like to eat tomorrow morning? Esta frase está",
+        answer:"D. Futuro",
         options: [
-            "A. 100 anos, Henrique V",
-            "B. 116 anos, Joana d'Arc",
-            "C. 14 anos, Ricardo II",
-            "D. 98 anos, Henrique V"
+            "A.  Presente",
+            "B. Passado",
+            "C. Ela não expressa tempo.",
+            "D. Futuro"
         ]
     },
 
     {
         numb: 3,
-        question:"Quando Getúlio Vargas morreu?",
-        answer:"D. 24 de Agosto de 1954",
+        question:"Quais dessas palavras estão todas no passado(simple past)?",
+        answer:"A. Died, Cried, Enjoyed, Invited and Worried ",
         options: [
-            "A. 15 de outubro de 1964",
-            "B. 9 de janeiro de 1949",
-            "C.25 de março de 1955",
-            "D. 24 de Agosto de 1954"
+            "A. Died, Cried, Enjoyed, Invited and Worried ",
+            "B. Answered, Died, Awakened, Failed and soon ",
+            "C.Tomorrow, cried, died, enjoyed and worried ",
+            "D. Soon, Tomorrow, cried, failed and enjoyed "
         ]
     },
     {
         numb: 4,
-        question:"Qual foi o primeiro astronauta que foi ao espaço?",
-        answer: "C. Iuri Gagarin",
+        question:"Spring begins on 20 March and ends on either 20 June or 21 June, in the United States, qual é a estação? ",
+        answer: "C. primavera ",
         options: [
-            "A. Neil Armstrong",
-            "B. Michael Collins",
-            "C. Iuri Gagarin",
-            "D. Jakub Procházka"
+            "A. outono",
+            "B. verão ",
+            "C. primavera ",
+            "D. inverno "
         ]
     },
 
     {
         numb: 5,
-        question:"Quem foi o primeiro presidente do Brasil?",
-        answer:"B. Deodoro da Fonsenca",
+        question:"Marie tem um voo marcado para Roma, Itália às 10:30. Qual é o horário do voo de Marie? ",
+        answer:"A. My flight is at half past ten ",
         options: [
-            "A. Fernando Collor ",
-            "B. Deodoro da Fonsenca",
-            "C. Luis Inácio Lula da Silva ",
-            "D. Fernando Henrique Cardoso"
+            "A. My flight is at half past ten ",
+            "B. My flight is at ten fourty-five ",
+            "C. My flight is at eleven fourty-five ",
+            "D. My flight is at ten fifty-five "
         ]
     
     }

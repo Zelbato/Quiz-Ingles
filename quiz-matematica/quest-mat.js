@@ -1,60 +1,60 @@
 let questions = [
     {
         numb: 1,
-        question:"Em que ano ocorreu a Revolução Industrial?",
-        answer:"C. 1760",
+        question:"Qual foi o matemático que descobriram o número π?",
+        answer:"D. Arquimedes ",
         options: [
-            "A. 1740",
-            "B. 1860",
-            "C. 1760",
-            "D. 1670"
+            "A. Pitágoras  ",
+            "B. Galileu Galilei ",
+            "C.  Euclides",
+            "D. Arquimedes "
         ]
     },
 
     {
         numb: 2,
-        question:"Em que ano ocorreu a Peste Negra?",
-        answer:"A. 1346 – 1353",
+        question:"Quantas casas decimais tem o número π?",
+        answer:"B. infinitas casas decimais ",
         options: [
-            "A. 1346 – 1353",
-            "B. 1335 - 1346",
-            "C. 1463 - 1475",
-            "D. 1353 - 1359"
+            "A. 1001 casas decimais ",
+            "B. infinitas casas decimais ",
+            "C. 0 casas decimais , pois não passa do 10",
+            "D. número de casas decimais indefinido pois não foi encontrado seu final"
         ]
     },
 
     {
         numb: 3,
-        question:"Em que ano ocorreu a independência do Brasil?",
-        answer:"D. 7 de setembro de 1822",
+        question:"Em um circo há 2314 lugares. Quantas centenas possui esse número?",
+        answer:"C. 23",
         options: [
-            "A. 29 de agosto de 1821",
-            "B. 15 de novembro de 1889",
-            "C. 9 de julho de 1824",
-            "D. 7 de setembro de 1822"
+            "A. 2314",
+            "B. 300",
+            "C. 23",
+            "D. 3"
         ]
     },
     {
         numb: 4,
-        question:"Em que ano ocorreu a independência do Brasil?",
-        answer:"D. 7 de setembro de 1822",
+        question:"Qual desses polígonos possui apenas dois pares de lados paralelos?",
+        answer:"D. Trapézio",
         options: [
-            "A. 29 de agosto de 1821",
-            "B. 15 de novembro de 1889",
-            "C. 9 de julho de 1824",
-            "D. 7 de setembro de 1822"
+            "A. Octógono",
+            "B. Triângulo",
+            "C. Retângulo",
+            "D. Trapézio"
         ]
     },
 
     {
         numb: 5,
-        question:"Quando ocorreu o descobrimento do Brasil?",
-        answer:"A. 22 de abril de 1500",
+        question:"Uma empresa com 40 funcionários, 27 deles plano de saúde. Qual é a fração que representa a quantidade de funcionários que tem plano de saúde?",
+        answer:"B. 40/27",
         options: [
-            "A. 22 de abril de 1500",
-            "B. 04 de abril de 1415",
-            "C. 20 de maio de 1500",
-            "D. 07 de novembro de 1570"
+            "A. 40/13",
+            "B. 40/27",
+            "C. 27/40",
+            "D. 13/40"
         ]
     }
 
