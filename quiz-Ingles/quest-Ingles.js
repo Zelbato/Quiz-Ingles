@@ -48,13 +48,13 @@ let questions = [
 
     {
         numb: 5,
-        question:"Marie tem um voo marcado para Roma, Itália às 10:30. Qual é o horário do voo de Marie? ",
-        answer:"A. My flight is at half past ten ",
+        question:"Quem foi o primeiro presidente do Brasil?",
+        answer:"B. Deodoro da Fonsenca",
         options: [
-            "A. My flight is at half past ten ",
-            "B. My flight is at ten fourty-five ",
-            "C. My flight is at eleven fourty-five ",
-            "D. My flight is at ten fifty-five "
+            "A. Fernando Collor ",
+            "B. Deodoro da Fonsenca",
+            "C. Luis Inácio Lula da Silva ",
+            "D. Fernando Henrique Cardoso"
         ]
     
     }
