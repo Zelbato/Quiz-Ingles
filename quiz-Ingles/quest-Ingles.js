@@ -18,7 +18,7 @@ let questions = [
         options: [
             "A.  Presente",
             "B. Passado",
-            "C. Ela não expressa tempo.",
+            "C. Futuro do pretérito.",
             "D. Futuro"
         ]
     },
@@ -36,7 +36,7 @@ let questions = [
     },
     {
         numb: 4,
-        question:"Spring begins on 20 March and ends on either 20 June or 21 June, in the United States, qual é a estação? ",
+        question:"Spring begins on March 20th, June 20ht or 21st, in the United States, qual é a estação? ",
         answer: "C. primavera ",
         options: [
             "A. outono",
@@ -48,13 +48,13 @@ let questions = [
 
     {
         numb: 5,
-        question:"Dengue is treated with pain medicine as there is no specific treatment currently?",
-        answer:"A. Is treated with pain medication",
+        question:"At the group of words below, mark thye one that does not include any Irregular verbs",
+        answer:"A. Kicked, killed, kissed, moved, murdered",
         options: [
-            "A. Is treated with pain medication",
-            "B. Can be cured with alternative therapies ",
-            "C. has specific and efficient treatment ",
-            "D. Is treated with intense antibiotics."
+            "A. Kicked, killed, kissed, moved, murdered ",
+            "B. Kicked, forgave, kissed, traveled, died ",
+            "C. Began, kissed, died, caught, bougth ",
+            "D. Fed, died, forgotten, bit, kissed"
         ]
     
     }
