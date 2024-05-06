@@ -49,7 +49,7 @@ let questions = [
     {
         numb: 5,
         question:"At the group of words below, mark thye one that does not include any Irregular verbs",
-        answer:"A. Kicked, killed, kissed, moved, murdered",
+        answer: "A. Kicked, killed, kissed, moved, murdered ",
         options: [
             "A. Kicked, killed, kissed, moved, murdered ",
             "B. Kicked, forgave, kissed, traveled, died ",

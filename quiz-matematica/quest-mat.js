@@ -37,12 +37,12 @@ let questions = [
     {
         numb: 4,
         question:"Qual desses polígonos possui apenas dois pares de lados paralelos?",
-        answer:"C. Retângulo ",
+        answer: "D. Retângulo",
         options: [
             "A. Octógono",
             "B. Triângulo",
-            "C. Retângulo",
-            "D. Trapézio"
+            "C. Trapézio",
+            "D. Retângulo"
         ]
     },
 
